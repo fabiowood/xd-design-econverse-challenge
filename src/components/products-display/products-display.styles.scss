@@ -1,0 +1,96 @@
+.products-display-container {
+  margin-bottom: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: relative;
+
+  .products-display-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .products-display-title {
+      /* Style for "PRODUTOS E" */
+      width: 343px;
+      height: 31px;
+      color: #041e50;
+      font-family: Lato;
+      font-size: 25px;
+      font-weight: 900;
+      letter-spacing: 1.25px;
+      text-transform: uppercase;
+      /* Text style for "PRODUTOS E" */
+      // font-family: "Lato - Regular";
+      font-weight: 400;
+    }
+
+    .products-display-highlight-text {
+      margin-left: 5px;
+      font-weight: 900;
+    }
+
+    .products-display-main-text {
+      /* Style for "It is a lo" */
+      width: 577px;
+      height: 20px;
+      color: #222222;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.8px;
+      /* Text style for "It is a lo" */
+      text-transform: lowercase;
+    }
+  }
+
+  .products-display-left-arrow {
+    /* Style for "Caminho 15" */
+    width: 10px;
+    height: 22px;
+    // border: 2px solid #041e50;
+    position: absolute;
+    top: 263px;
+    left: 50px;
+    cursor: pointer;
+  }
+
+  .products-display-right-arrow {
+    /* Style for "Caminho 15" */
+    width: 10px;
+    height: 22px;
+    // border: 2px solid #041e50;
+    position: absolute;
+    top: 263px;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  .products-display-button-container {
+    /* Style for "Retângulo" */
+    width: 155px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #041e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 95px;
+
+    .products-display-button {
+      /* Style for "VER MAIS" */
+      width: 70px;
+      height: 16px;
+      color: #041e50;
+      font-family: Lato;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 1.3px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 94px;
+  margin-bottom: 103px;
+  /* Style for "Retângulo" */
+  width: 1280px;
+  height: 371px;
+  background-color: #3c3c3c;
+  opacity: 0.6;
+
+  .banner-first-block {
+    /* Style for "os melhore" */
+    width: 711px;
+    height: 97px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    /* Text style for "os ,  equi" */
+    // font-family: "Lato - Regular";
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "melhores," */
+    text-transform: uppercase;
+  }
+
+  .banner-second-block {
+    /* Style for "Componente" */
+    width: 155px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .banner-check-button {
+    /* Style for "CONFIRA" */
+    width: 66px;
+    height: 16px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

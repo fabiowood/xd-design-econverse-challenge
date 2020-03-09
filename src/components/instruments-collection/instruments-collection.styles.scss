@@ -1,0 +1,24 @@
+.instruments-collection-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 20px;
+
+  .instruments-collection-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 70px;
+  }
+
+  .instruments-collection-error-message {
+    width: 576px;
+    height: 20px;
+    color: #222222;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-left: 300px;
+    margin-top: 50px;
+  }
+}

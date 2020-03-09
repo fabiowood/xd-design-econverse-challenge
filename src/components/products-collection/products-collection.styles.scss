@@ -1,0 +1,11 @@
+.products-collection-container {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 20px;
+
+  .products-collection-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 70px;
+  }
+}

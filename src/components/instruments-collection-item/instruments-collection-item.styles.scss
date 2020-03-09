@@ -1,0 +1,65 @@
+.instruments-collection-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* Style for "Componente" */
+  width: 227px;
+  height: 287px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  .collection-item-image {
+    /* Style for "Captura de" */
+    width: 216px;
+    height: 162px;
+    background-size: cover;
+    margin-left: 10px;
+  }
+
+  .collection-item-footer {
+    width: 261px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+
+    .collection-item-name {
+      margin-bottom: 65px;
+      text-align: center;
+      /* Style for "Bateria El" */
+      height: 19px;
+      color: #041e50;
+      font-family: Lato;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+
+    .collection-item-text {
+      /* Style for "Many deskt" */
+      width: 202px;
+      height: 28px;
+      color: #222222;
+      font-family: Lato;
+      font-size: 10px;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+
+    .collection-item-price {
+      /* Style for "R$ 1499,90" */
+      width: 112px;
+      height: 22px;
+      color: #041e50;
+      font-family: Lato;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+    }
+
+  }
+}

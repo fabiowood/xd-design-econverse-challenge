@@ -1,0 +1,69 @@
+.follow-us-display-container {
+  margin-bottom: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+
+  .follow-us-display-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 55px;
+
+    .follow-us-display-title {
+      /* Style for "Follow us" */
+      width: 188px;
+      height: 31px;
+      color: #041e50;
+      font-family: Lato;
+      font-size: 25px;
+      font-weight: 700;
+      letter-spacing: 3.75px;
+      /* Text style for "Follow us" */
+      text-transform: uppercase;
+    }
+
+    .follow-us-display-main-text {
+  
+      a {
+        /* Style for "@ninjasom" */
+        width: 118px;
+        height: 20px;
+        color: #222222;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 2.4px;
+        /* Text style for "@ninjasom," */
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .follow-us-photos-display-container {
+    /* Style for "Grupo 692" */
+    margin-top: 102px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+
+    .follow-us-photo-one {
+      /* Style for "Componente" */
+      width: 258px;
+      height: 257px;
+    }
+
+    .follow-us-other-photos {
+      /* Style for "Componente" */
+      width: 257px;
+      height: 257px;
+    }
+  }
+}

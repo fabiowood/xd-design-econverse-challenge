@@ -1,0 +1,47 @@
+.search-box-form {
+  /* Style for "Retângulo" */
+  width: 340px;
+  height: 41px;
+  border-radius: 5px;
+  border: 1px solid #041e50;
+  opacity: 0.4;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  margin-right: 50px;
+
+  .search-box-input {
+    color: #041e50;
+    font-family: Lato;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 0.45px;
+    text-transform: uppercase;
+    border: none;
+    margin-left: 27px;
+    margin-right: 160px;
+  }
+
+  .search-box-button {
+    /* Style for "Caminho 3" */
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  input::placeholder {
+    /* Style for "BUSQUE AQU" */
+    width: 75px;
+    height: 11px;
+    opacity: 0.4;
+    color: #041e50;
+    font-family: Lato;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 0.45px;
+    text-transform: uppercase;
+  }
+
+}

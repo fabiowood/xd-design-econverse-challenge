@@ -1,0 +1,111 @@
+.brands-display-container {
+  margin-bottom: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+
+  .brands-display-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .brands-display-title {
+      /* Style for "AS MELHORE" */
+      width: 305px;
+      height: 31px;
+      color: #041e50;
+      font-family: Lato;
+      font-size: 25px;
+      font-weight: 400;
+      letter-spacing: 1.25px;
+      text-transform: uppercase;
+      /* Text style for "MELHORES" */
+      // font-family: "Lato - Bold";
+      font-weight: 700;
+    }
+
+    .brands-display-highlight-text {
+      margin-left: 5px;
+      font-weight: 900;
+    }
+
+    .brands-display-main-text {
+      /* Style for "It is a lo" */
+      width: 577px;
+      height: 20px;
+      color: #a5a5a5;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.8px;
+      /* Text style for "It is a lo" */
+      text-transform: lowercase;
+    }
+  }
+
+  .brands-display-left-arrow {
+    /* Style for "Caminho 15" */
+    width: 10px;
+    height: 21px;
+    // border: 2px solid #041e50;
+    position: absolute;
+    top: 230px;
+    right: 1230px;
+    cursor: pointer;
+  }
+
+  .brands-display-right-arrow {
+    /* Style for "Caminho 15" */
+    width: 10px;
+    height: 21px;
+    // border: 2px solid #041e50;
+    position: absolute;
+    top: 230px;
+    right: 40px;
+    cursor: pointer;
+  }
+
+  .brands-logos-display-container {
+    /* Style for "Grupo 692" */
+    width: 1191px;
+    height: 21px;
+    margin-top: 102px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+
+    .brand-display-akg {
+      /* Style for "surface1" */
+      width: 133px;
+      height: 52px;
+      margin-left: 80px;
+      margin-right: 85px;
+    }
+
+    .brand-display-roland {
+      /* Style for "Componente" */
+      width: 211px;
+      height: 34px;
+      margin-right: 85px;
+    }
+
+    .brand-display-boss {
+      /* Style for "Componente" */
+      width: 202px;
+      height: 35px;
+      margin-right: 85px;
+    }
+
+    .brand-display-shure {
+      /* Style for "Componente" */
+      width: 223px;
+      height: 40px;
+      margin-right: 85px;
+    }
+  }
+}

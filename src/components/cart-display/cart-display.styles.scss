@@ -1,0 +1,70 @@
+.cart-display-major-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url('../../assets/cart-background-image.svg');
+  margin-top: 15px;
+  width: 77px;
+  height: 104px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.13);
+  background-color: #041e50;
+
+  .cart-display-minor-container {
+    /* Style for "Grupo 1513" */
+    width: 55px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+
+    .cart-icon-container {
+      /* Style for "Caminho 1" */
+      width: 23px;
+      height: 28px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  
+    .cart-info-container {
+      /* Style for "Seu carrin" */
+      font-size: 7px;
+      color: #ffffff;
+      font-family: Lato;
+      font-weight: 400;
+      letter-spacing: 0.7px;
+      /* Text style for "Seu" */
+      text-transform: uppercase;
+      align-self: flex-start;
+
+      .cart-name {
+        /* Style for "Seu carrin" */
+        font-size: 7px;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+        width: 49px;
+        height: 9px;
+        box-sizing: border-box;
+        /* Text style for "Seu" */
+        text-transform: uppercase;
+        margin-top: -5px;
+      }
+  
+      .cart-items-account {
+        /* Style for "0 item (s)" */
+        width: 50px;
+        height: 14px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        /* Text style for "0" */
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .lowercase-letter {
+    text-transform: lowercase;
+  }
+}

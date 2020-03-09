@@ -1,0 +1,88 @@
+.sign-in-display-container {
+  /* Style for "Grupo 1512" */
+  width: 127px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 80px;
+
+  .avatar-icon-container {
+    /* Style for "Grupo 213" */
+    width: 21px;
+    height: 24px;
+    position: relative;
+
+    .avatar-head {
+      /* Style for "Caminho 15" */
+      width: 11px;
+      height: 13px;
+      position: absolute;
+      bottom: 30px;
+      left: 5px;
+    }
+
+    .avatar-body {
+      /* Style for "Caminho 15" */
+      width: 21px;
+      height: 12px;
+      position: absolute;
+      bottom: 20px;
+    }
+  }
+
+  .sign-in-info-container {
+    /* Style for "Grupo 1512" */
+    width: 127px;
+    height: 24px;
+    position: relative;
+    margin-right: 5px;
+
+    .sign-in-visitor-name {
+      /* Style for "oLá, VISIT" */
+      width: 89px;
+      height: 13px;
+      color: #041e50;
+      font-family: Lato;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      /* Text style for "oLá, VISIT" */
+      text-transform: uppercase;
+      position: absolute;
+      bottom: 14px;
+    }
+
+    .sign-in-visitor-account {
+      /* Style for "MINHA CONT" */
+      width: 58px;
+      height: 9px;
+      color: #041e50;
+      font-family: Lato;
+      font-size: 7px;
+      font-weight: 400;
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+      position: absolute;
+      bottom: 4px;
+    }
+  }
+
+  .sign-in-dropdown-container {
+    position: relative;
+    cursor: pointer;
+
+    .sign-in-dropdown-icon {
+      /* Style for "Polígono 3" */
+      width: 5px;
+      height: 3px;
+      position: absolute;
+      left: 40px;
+      bottom: 10px;
+    }
+  }
+
+  .lowercase-letter {
+    text-transform: lowercase;
+  }
+}

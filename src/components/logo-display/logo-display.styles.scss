@@ -1,0 +1,42 @@
+.logo-display {
+  /* Style for "Grupo 1491" */
+  width: 180px;
+  height: 28px;
+  box-sizing: border-box;
+  position: relative;
+  margin-left: 40px;
+  margin-right: 60px;
+
+  .logo-letter-a {
+    /* Style for "Caminho 15" */
+    width: 22px;
+    height: 28px;
+    margin-right: 10px;
+  }
+
+  .logo-letter-s-top {
+    position: absolute;
+    top:3px;
+  }
+
+  .logo-letter-s-bottom {
+    /* Style for "Caminho 15" */
+    width: 19px;
+    height: 8px;
+  }
+
+  .logo-letter-o-left {
+    padding-left: 1px;
+    margin-right: -4px;
+  }
+
+  .logo-letter-o-right {
+    padding-right: 1px;
+  }
+
+  .logo-letter-m {
+    /* Style for "Caminho 15" */
+    width: 28px;
+    height: 27px;
+  }
+}

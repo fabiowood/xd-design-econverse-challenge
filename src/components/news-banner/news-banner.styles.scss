@@ -1,0 +1,105 @@
+.news-banner-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+
+  .left-background {
+    width: 640px;
+    height: 386px;
+    background-image: linear-gradient(to top, #000000 0%, rgba(121, 121, 121, 0) 100%), url('../../assets/news-banner-left-background.png');
+    opacity: 0.9;
+    // opacity: 0.66;
+  }
+
+  .right-background {
+    width: 640px;
+    height: 386px;
+    background-image: linear-gradient(to top, #000000 0%, rgba(121, 121, 121, 0) 100%), url('../../assets/news-banner-right-background.png');
+    opacity: 0.9;
+    // opacity: 0.66;
+  }
+
+  .news-banner-section {
+    /* Style for "Retângulo" */
+    width: 640px;
+    height: 386px;
+    // background-image: linear-gradient(to top, #000000 0%, rgba(121, 121, 121, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .news-banner-first-block {
+
+      .first-block-text {
+        /* Style for "NOVIDADES" */
+        width: 118px;
+        height: 17px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 4.2px;
+        text-transform: uppercase;
+      }
+
+      .first-block-image {
+        /* Style for "Linha 3" */
+        width: 20px;
+        height: 1px;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+      }
+    }
+
+    .news-banner-second-block {
+      /* Style for "INSTRUMENT" */
+      width: 385px;
+      height: 97px;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 40px;
+      font-weight: 300;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .audio-text {
+      /* Text style for "ÁUDIO" */
+      // font-family: "Lato - Bold";
+      font-weight: 700;
+    }
+
+    .instruments-text {
+      /* Text style for "INSTRUMENT" */
+      // font-family: "Lato - Bold";
+      font-weight: 700;
+    }
+
+    .news-banner-third-block {
+      /* Style for "Retângulo" */
+      width: 155px;
+      height: 50px;
+      border-radius: 5px;
+      border: 1px solid #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      .news-banner-check-button {
+        /* Style for "CONFIRA" */
+        width: 66px;
+        height: 17px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 1.3px;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+}

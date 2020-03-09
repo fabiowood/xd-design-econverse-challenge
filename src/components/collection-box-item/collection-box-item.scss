@@ -1,0 +1,31 @@
+.collection-box-item {
+  /* Style for "Componente" */
+  width: 126px;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .collection-box-image-container {
+      /* Style for "20022019-I" */
+      width: 106px;
+      height: 106px;
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  
+  .collection-box-title {
+    /* Style for "GUITARRAS" */
+    height: 17px;
+    opacity: 0.5;
+    color: #041e50;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    /* Text style for "GUITARRAS," */
+    // text-transform: uppercase;
+  }
+}

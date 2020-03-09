@@ -1,0 +1,176 @@
+.header {
+  display: flex;
+  flex-direction: column;
+
+  .header-first-container {
+    /* Style for "Retângulo" */
+    width: 1280px;
+    height: 37px;
+    background-color: #041e50;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+
+    .header-first-container-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      .padlock-image {
+        /* Style for "lock" */
+        width: 18px;
+        height: 21px;
+
+        .padlock-center {
+          /* Style for "Caminho 40" */
+          width: 4px;
+          height: 7px;
+          position: absolute;
+          top: 14px;
+          left: 56px;
+        }
+
+        .padlock-border {
+          /* Style for "Caminho 39" */
+          width: 18px;
+          height: 21px;
+          position: relative;
+        }
+      }
+
+      .header-option-title {
+        width: 123px;
+        height: 13px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        margin-left: 20px;
+        margin-right: 65px;
+        box-sizing: border-box;
+        text-transform: uppercase;
+
+        .buy-title {
+          /* Text style for "COMPRA" */
+          // font-family: "Lato - Regular";
+          font-weight: 400;
+          text-transform: uppercase;
+          padding-right: 1px;
+        }
+
+        .trade-title {
+          /* Style for "1ª troca g" */
+          width: 71px;
+          height: 13px;
+          text-transform: lowercase;
+        }
+
+        .no-interests-title {
+          /* Style for "5X SEM JUR" */
+          width: 77px;
+          height: 14px;
+          text-transform: uppercase;
+        }
+      }
+      
+      .final-option-title {
+        width: 202px;
+        height: 13px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        margin-left: 15px;
+        
+        .delivery-title {
+          /* Style for "ENTREGAS E" */
+          width: 161px;
+          height: 13px;
+          // font-family: "Lato - Regular";
+          // font-weight: 400;
+          padding-right: 1px;
+          text-transform: uppercase;
+          }
+      }
+
+      .arrows-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .left-arrow {
+          /* Style for "XMLID_17_" */
+          width: 20px;
+          height: 11px;
+          border: 1px solid #041e50;
+        }
+
+        .right-arrow {
+          /* Style for "XMLID_18_" */
+          width: 20px;
+          height: 12px;
+          border: 1px solid #041e50;
+        }
+      }
+
+      .percentual-image {
+        width: 18px;
+        height: 18px;
+
+        .top-percent-circle {
+          /* Style for "Caminho 26" */
+          width: 8px;
+          height: 8px;
+          border: 1px solid #041e50;
+          position: relative;
+          left: 35px;
+          bottom: 8px;
+        }
+
+        .divider-percent-image {
+          /* Style for "Caminho 25" */
+          width: 18px;
+          height: 18px;
+          border: 1px solid #041e50;
+          position: relative;
+          left: 25px;
+          top: 3px;
+        }
+
+        .bottom-percent-circle {
+          /* Style for "Caminho 27" */
+          width: 9px;
+          height: 9px;
+          border: 1px solid #041e50;
+          position: relative;
+          left: 15px;
+          top: 4px;
+        }
+      }
+
+      .delivery-truck {
+        /* Style for "002-delive" */
+        width: 25px;
+        height: 18px;
+        border: 1px solid #041e50;
+      }
+
+      .lowercase-letter {
+        text-transform: lowercase;
+      }
+
+      .header-dividing-line {
+        width: 1px;
+        height: 18px;
+        border: 1px solid #c4c4c4;
+        opacity: 0.4;
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+.main-banner-container {
+  /* Style for "banner 1" */
+  width: 1280px;
+  height: 537px;
+  background-image: url('../../assets/main-banner.png');
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+
+  .main-banner-headers {
+    width: 417px;
+    height: 151px;
+    margin-left: 165px;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+    .main-text-products {
+      /* Style for "NOVOS PROD" */
+      width: 236px;
+      height: 36px;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: 6.4px;
+      line-height: 36px;
+      text-transform: uppercase;
+      /* Text style for "NOVOS PRO" */
+      // text-transform: uppercase;
+    }
+
+    .main-text-instruments {
+      /* Style for "instrument" */
+      width: 417px;
+      height: 117px;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 46px;
+      font-weight: 300;
+      letter-spacing: 6.21px;
+      line-height: 61px;
+      /* Text style for "instrument" */
+      // font-family: "Lato - Black";
+      // font-weight: 900;
+      // letter-spacing: 4.6px;
+      text-transform: uppercase;
+      /* Text style for ", Profissi" */
+      // text-transform: uppercase;
+    }
+  }
+
+  .main-banner-check-button-container {
+    /* Style for "Componente" */
+    width: 155px;
+    height: 45px;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+
+    .main-banner-check-button {
+      /* Style for "CONFIRA" */
+      width: 66px;
+      height: 16px;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 1.3px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .main-banner-check-button-underline {
+      /* Style for "Linha 1" */
+      width: 78px;
+      height: 1px;
+      border: 1px solid #ffffff;
+    }
+  }
+
+  .banner-right-arrow {
+    /* Style for "Caminho 16" */
+    width: 23px;
+    height: 43px;
+    position: absolute;
+    left:1223px;
+    top: 247px;
+    cursor: pointer;
+  }
+
+  .main-banner-elipses-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 125px;
+    left: 572px;
+    bottom: 20px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,65 @@
+.general-info-container {
+  /* Style for "Retângulo" */
+  width: 1280px;
+  height: 75px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .phone-contact-container {
+    /* Style for "Grupo 1518" */
+    // width: 185px;
+    height: 22px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 65px;
+    box-sizing: border-box;
+
+    .phone-icon-container {
+      /* Style for "Grupo 1517" */
+      width: 22px;
+      height: 22px;
+      position: relative;
+
+      .phone-icon-border {
+        /* Style for "Caminho 16" */
+        width: 22px;
+        height: 22px;
+      }
+
+      .phone-icon {
+        /* Style for "Caminho 16" */
+        width: 13px;
+        height: 13px;
+        position: absolute;
+        top: 4px;
+        left: 5px;
+      }
+    }
+
+    .phone-contact-number-standard {
+      margin-left: -30px;
+
+      .phone-contact-number {
+        /* Style for "(11) 99999" */
+        width: 84px;
+        height: 13px;
+        color: #041e50;
+        font-family: Lato;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+  
+      .phone-contact-number-complement {
+        color: #041e50;
+        font-family: Lato;
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+}
