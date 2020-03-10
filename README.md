@@ -1,3 +1,23 @@
+Resumo: Este projeto foi desenvolvido para apresentar a reprodução do design especificado pela Econverse para a aplicação.
+
+Instruções para Acesso ao Projeto:
+
+1 - Realizar um "Clone" do projeto em um diretório local (Git Clone <link do repositório no GitHub>).
+
+2 - Acessar o diretório local do projeto pelo terminal do seu computador.
+
+3 - Inserir os comandos npm install e npm start no terminal, no diretório em que o projeto está instalado localmente.
+
+4 - O usuário será direcionado ao browser automaticamente em: http://localhost:3000
+
+O arquivo package.json contém todas as dependências e packages utilizados para este projeto, e foi criado a partir do Create React App.
+
+Atenciosamente.
+
+Fabio Madeira.
+
+==================================================================================
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
