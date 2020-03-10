@@ -10,7 +10,17 @@ Instruções para Acesso ao Projeto:
 
 4 - O usuário será direcionado ao browser automaticamente em: http://localhost:3000
 
-O arquivo package.json contém todas as dependências e packages utilizados para este projeto, e foi criado a partir do Create React App.
+Alguns comentários pontuais:
+
+- Cada componente está separado em um diretório específico, com o seu arquivo .JSX e seu respectivo arquivo .SCSS.
+
+- Toda a aplicação foi desenvolvida em React .js. Dado o objetivo do desafio, utilizei pontualmente a gestão de estados com o React Hooks, nos componentes em que eram necessários.
+
+- Em caso de ampliação do escopo da aplicação, com funcionalidades e páginas distintas, recomendo a migração para o Redux, para obter uma gestão de estados coerente com a expansão de componentes acessando e alterando estados similares.
+
+- Deixei comentadas algumas linhas nos arquivos .SCSS, nos casos em que eu identifiquei um conflito entre as especificações, ou mesmo quando avaliei que a implantação do especificado ficaria bem diferente do Preview da aplicação.
+
+- O arquivo package.json contém todas as dependências e packages utilizados para este projeto, e foi criado a partir do Create React App.
 
 Atenciosamente.
 
