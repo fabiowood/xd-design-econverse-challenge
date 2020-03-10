@@ -19,11 +19,11 @@
       color: #041e50;
       font-family: Lato;
       font-size: 25px;
-      // font-weight: 900;
+      font-weight: 900;
       letter-spacing: 1.25px;
       /* Text style for "Instrument" */
       // font-family: "Lato - Regular";
-      font-weight: 400;
+      // font-weight: 400;
       text-transform: uppercase;
       /* Text style for "" */
       // font-family: "Lato - Regular";
@@ -132,5 +132,9 @@
       text-transform: uppercase;
       text-decoration: none;
     }
+  }
+
+  .lowercase-letter {
+    text-transform: lowercase;
   }
 }

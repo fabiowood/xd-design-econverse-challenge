@@ -2,6 +2,7 @@
   /* Style for "banner 1" */
   width: 1280px;
   height: 537px;
+  margin-bottom: 35px;
   background-image: url('../../assets/main-banner.png');
   box-sizing: border-box;
   display: flex;
@@ -108,5 +109,9 @@
     left: 572px;
     bottom: 20px;
     cursor: pointer;
+  }
+
+  .lowercase-letter {
+    text-transform: lowercase;
   }
 }

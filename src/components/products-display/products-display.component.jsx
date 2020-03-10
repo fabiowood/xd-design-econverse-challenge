@@ -10,10 +10,10 @@ import ProductsCollection from '../products-collection/products-collection.compo
 const ProductsDisplay = () => {  
   return (
     <section className='products-display-container'>
-      <div className='products-display-title-container'>
+      <article className='products-display-title-container'>
         <h3 className='products-display-title'>Produtos em<span className='products-display-highlight-text'>Destaque</span></h3>
         <p className='products-display-main-text'>It is a long established fact that a reader will be distracted by the readable</p>
-      </div>
+      </article>
       <ProductsDisplayLeftArrow className='products-display-left-arrow'/>
       <ProductsCollection />
       <ProductsDisplayRightArrow className='products-display-right-arrow' />

@@ -23,21 +23,21 @@
         /* Style for "lock" */
         width: 18px;
         height: 21px;
+        position: relative;
 
         .padlock-center {
           /* Style for "Caminho 40" */
           width: 4px;
           height: 7px;
           position: absolute;
-          top: 14px;
-          left: 56px;
+          bottom: 7px;
+          left: 7px;
         }
 
         .padlock-border {
           /* Style for "Caminho 39" */
           width: 18px;
           height: 21px;
-          position: relative;
         }
       }
 
@@ -88,13 +88,16 @@
         margin-left: 15px;
         
         .delivery-title {
-          /* Style for "ENTREGAS E" */
           width: 161px;
           height: 13px;
-          // font-family: "Lato - Regular";
-          // font-weight: 400;
           padding-right: 1px;
           text-transform: uppercase;
+        }
+        
+        .delivery-different-title {
+          /* Style for "ENTREGAS E" */
+          // font-family: "Lato - Regular";
+          font-weight: 400;
           }
       }
 

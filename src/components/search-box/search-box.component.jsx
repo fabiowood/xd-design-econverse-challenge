@@ -5,10 +5,10 @@ import './search-box.styles.scss';
 const SearchBox = () => {
   const [searchBox, setSearch] = useState('');
   const [searchField] = [searchBox];
-
+  
   const handleChange = event => {
     setSearch(event.target.value);
-  };
+  }
 
   return (
     <form className='search-box-form'>

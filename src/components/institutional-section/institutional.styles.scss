@@ -1,0 +1,278 @@
+.institutional-container {
+  /* Style for "Retângulo" */
+  width: 1280px;
+  height: 389px;
+  background-image: url('../../assets/institutional-background.svg');
+  margin-top: -30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+
+  h5 {
+    /* Style for "INSTITUCIO" */
+    height: 18px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    margin-top: 70px;
+  }
+
+  ul {
+
+    a {
+      text-decoration: none;
+    }
+    li {
+      /* Style for "Quem somos" */
+      height: 40px;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+      /* Text style for "Quem somos" */
+      text-transform: uppercase;
+      text-decoration: none;
+      list-style: none;
+      margin-left: -40px;
+      cursor: pointer;
+    }
+  }
+
+  input::placeholder {
+    /* Style for "Seu nome" */
+    width: 63px;
+    height: 16px;
+    color: #041e50;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    /* Text style for "Seu nome," */
+    text-transform: uppercase;
+  }
+
+  .institutional-first-section {
+    display: flex;
+    flex-direction: column;
+
+    .institutional-block {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      .institutional-block-options {
+        position: absolute;
+        top: 95px;
+      }
+    }
+
+    .attendance-block {
+
+      .attendance-title {
+        /* Style for "Atendiment" */
+        width: 113px;
+        height: 18px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        line-height: 12px;
+        /* Text style for "Atendimen" */
+        text-transform: uppercase;
+        margin-top: 125px;
+      }
+    }
+  }
+
+  .institutional-second-section {
+
+    .social-media-block {
+      /* Style for "Grupo 1479" */
+      width: 83px;
+      height: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: -1px;
+      cursor: pointer;
+
+      .social-media-instagram {
+        /* Style for "Caminho 3" */
+        width: 16px;
+        height: 16px;
+      }
+
+      .social-media-twitter {
+        /* Style for "Caminho 2" */
+        width: 16px;
+        height: 13px;
+      }
+
+      .social-media-facebook {
+        /* Style for "Caminho 1" */
+        width: 9px;
+        height: 16px;
+      }
+    }
+  }
+
+  .institutional-third-section {
+    /* Style for "Grupo 696" */
+    position: relative;
+    width: 200px;
+    height: 190px;
+
+    .payments-methods-images-block {
+      /* Style for "Grupo 1478" */
+      width: 109px;
+      height: 48px;
+      position: absolute;
+      bottom: 30px;
+      right: 50px;
+      cursor: pointer;
+    }
+
+    .security-images-block {
+      position: relative;
+
+      .security-ssl-image {
+        position: absolute;
+        top: 1px;
+        right: 85px;
+        cursor: pointer;
+      }
+
+      .security-vtex-image {
+        position: absolute;
+        top: 1px;
+        right: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .institutional-fourth-section {
+    /* Style for "Retângulo" */
+    width: 276px;
+    height: 249px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .institutional-fourth-section-target-size {
+      /* Style for "Grupo 1479" */
+      width: 227px;
+      height: 183px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+
+      .institutional-headers {
+        position: relative;
+
+        .institutional-newsletter-text {
+          /* Style for "Assine nos" */
+          width: 227px;
+          height: 17px;
+          color: #041e50;
+          font-family: Lato;
+          font-size: 14px;
+          font-weight: 700;
+          letter-spacing: 1.4px;
+          line-height: 12px;
+          position: absolute;
+          bottom: 15px;
+          /* Text style for "Assine nos" */
+          // font-family: "Lato - Regular";
+          // font-weight: 400;
+          text-transform: uppercase;
+          /* Text style for "newsletter" */
+          // text-transform: uppercase;
+        }
+
+        .institutional-highlights-text {
+          /* Style for "E receba n" */
+          width: 221px;
+          height: 20px;
+          color: #041e50;
+          font-family: Lato;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 20px;
+          /* Text style for "E receba n" */
+          text-transform: uppercase;
+        }
+      }
+
+      .institutional-newsletter-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+
+        input {
+          width: 220px;
+          margin-bottom: 10px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          /* Style for "Seu nome" */
+          height: 16px;
+          color: #041e50;
+          font-family: Lato;
+          font-size: 12px;
+          font-weight: 400;
+          /* Text style for "Seu nome," */
+          text-transform: uppercase;
+        }
+
+        button {
+          /* Style for "Retângulo" */
+          width: 111px;
+          height: 35px;
+          border-radius: 5px;
+          border: 1px solid #041e50;
+          background-color: white;
+          cursor: pointer;
+        }
+
+        .institutional-newsletter-success-message {
+          text-align: center;
+          width: 250px;
+          height: 20px;
+          color: #222222;
+          font-family: Lato;
+          font-size: 12px;
+          font-weight: 700;
+        }
+
+        .institutional-newsletter-form-button {
+          /* Style for "ENVIAR" */
+          // width: 47px;
+          // height: 13px;
+          color: #041e50;
+          // font-family: "Maven Pro";
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 12px;
+          text-transform: uppercase;
+          /* Text style for "ENVIAR" */
+          font-family: Helvetica;
+          // font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .lowercase-letter {
+    text-transform: lowercase;
+  }
+}

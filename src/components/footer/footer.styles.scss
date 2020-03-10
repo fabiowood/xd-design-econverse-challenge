@@ -1,0 +1,36 @@
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .footer-company-info {
+    /* Style for "NINJA SOM" */
+    width: 507px;
+    height: 30px;
+    color: #010101;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    box-sizing: border-box;
+  }
+
+  .footer-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 205px;
+
+    .footer-econverse-logo {
+      /* Style for "Grupo 184" */
+      width: 77px;
+      height: 36px;
+    }
+
+    .footer-vtex-logo {
+      /* Style for "VTEX_black" */
+      width: 84px;
+      height: 31px;
+    }
+  }
+}

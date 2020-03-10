@@ -8,8 +8,8 @@ const MainBanner = () => {
   return (
     <section className='main-banner-container'>
       <article className='main-banner-headers'>
-          <h4 className='main-text-products'>Novos Produtos</h4>
-          <h1 className='main-text-instruments'>Instrumentos Profissionais</h1>
+          <h4 className='main-text-products'>Novos Prod<span className='lowercase-letter'>utos</span></h4>
+          <h1 className='main-text-instruments'>Instrument<span className='lowercase-letter'>os</span> Profissi<span className='lowercase-letter'>onais</span></h1>
       </article>
       <article className='main-banner-check-button-container'>
         <a href='#confira' className='main-banner-check-button'>Confira</a>

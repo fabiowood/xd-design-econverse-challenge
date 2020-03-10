@@ -22,7 +22,7 @@ const InstrumentsCollection = ({ InstrumentsToDisplay }) => {
   const selectedInstruments = findInstrumentsToDisplay(allInstruments, InstrumentsToDisplay);
   return (
     <section className='instruments-collection-container'>
-      <div className='instruments-collection-items'>
+      <article className='instruments-collection-items'>
         {
           selectedInstruments.length > 0 ?
 
@@ -30,7 +30,7 @@ const InstrumentsCollection = ({ InstrumentsToDisplay }) => {
           :
           <p className='instruments-collection-error-message'>Não há itens disponíveis nesta seção!</p>
         }
-      </div>
+      </article>
     </section>
   )
 };

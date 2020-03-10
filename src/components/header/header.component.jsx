@@ -72,7 +72,7 @@ const Header = () => {
             </a>
           </div>
           <p className='final-option-title'>
-            <span className='delivery-title'>Entregas em Todo o Bra</span> 
+            <span className='delivery-title'><span className='delivery-different-title'>Entregas e</span>m Todo o Bra</span> 
             <span className='lowercase-letter'>sil</span> 
           </p>
         </article>

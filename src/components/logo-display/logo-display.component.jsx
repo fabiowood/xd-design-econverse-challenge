@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { ReactComponent as LogoLetterN } from '../../assets/logo-letter-n.svg';
 import { ReactComponent as LogoLetterI } from '../../assets/logo-letter-i.svg';
 import { ReactComponent as LogoLetterSecondN } from '../../assets/logo-letter-second-n.svg';
@@ -14,7 +15,7 @@ import './logo-display.styles.scss';
 
 const LogoDisplay = () => {
   return (
-    <figure className='logo-display'>
+    <Link to='/' className='logo-display'>
       <LogoLetterN />
       <LogoLetterI />
       <LogoLetterSecondN />
@@ -25,7 +26,7 @@ const LogoDisplay = () => {
       <LogoLetterOLeft className='logo-letter-o-left'/>
       <LogoLetterORight className='logo-letter-o-right'/>
       <LogoLetterM className='logo-letter-m'/>
-    </figure>
+    </Link>
   ) 
 };
 

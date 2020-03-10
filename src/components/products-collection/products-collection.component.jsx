@@ -26,11 +26,11 @@ const ProductsCollection = () => {
   const highlightedInstruments = findHighlightProductsToDisplay(allInstruments);
   return (
     <section className='products-collection-container'>
-      <div className='products-collection-items'>
+      <article className='products-collection-items'>
         {
           highlightedInstruments.map((instrument) => <InstrumentsCollectionItem key={instrument.productId} instrument={instrument} />).filter((item, index) => index < 4)
         }
-      </div>
+      </article>
     </section>
   )
 };

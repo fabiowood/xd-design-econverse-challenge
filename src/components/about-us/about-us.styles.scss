@@ -1,1 +1,130 @@
+.about-us-display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
 
+  .about-us-display-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 84px;
+
+    .about-us-display-title {
+      /* Style for "sobre nós" */
+      width: 138px;
+      height: 32px;
+      color: #041e50;
+      font-family: Lato;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 2.6px;
+      /* Text style for "s" */
+      text-transform: uppercase;
+    }
+
+    .about-us-display-main-text {
+      /* Style for "It is a lo" */
+      width: 1001px;
+      height: 112px;
+      color: #222222;
+      font-family: Poppins;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 0.6px;
+    }
+  }
+
+  .people-background {
+    /* Style for "Retângulo" */
+    width: 1002px;
+    height: 174px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+
+  .about-us-people-display-container {
+    margin-top: 102px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .about-us-left-arrow {
+      /* Style for "Caminho 15" */
+      width: 8px;
+      height: 17px;
+      cursor: pointer;
+    }
+
+    .about-us-right-arrow {
+      /* Style for "Caminho 15" */
+      width: 8px;
+      height: 17px;
+      cursor: pointer;
+    }
+
+    .about-us-people-display-target-width {
+      /* Style for "Grupo 1483" */
+      width: 729px;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+
+      .about-us-people-title {
+
+        .about-us-people-name {
+          /* Style for "Felipe Sal" */
+          width: 75px;
+          height: 15px;
+          color: #041e50;
+          font-family: Lato;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 10px;
+        }
+
+        .about-us-people-occupation {
+          /* Style for "Designer" */
+          width: 41px;
+          height: 13px;
+          color: #041e50;
+          font-family: Lato;
+          font-size: 10px;
+          font-weight: 400;
+          line-height: 8px;
+        }
+      }
+
+      .about-us-people-presentation {
+        /* Style for "União 3" */
+        width: 551px;
+        height: 76px;
+        background-image: url('../../assets/about-us-description-background.svg');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .about-us-people-summary {
+          /* Style for "Many deskt" */
+          width: 502px;
+          height: 40px;
+          color: #2f2f2f;
+          font-family: Lato;
+          font-size: 13px;
+          font-weight: 400;
+          letter-spacing: 0.65px;
+        }
+      }
+    }
+  }
+
+  .lowercase-letter {
+    text-transform: lowercase;
+  }
+}

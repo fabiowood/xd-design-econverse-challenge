@@ -12,10 +12,10 @@ const InstrumentsDisplay = () => {
   
   return (
     <section className='instruments-display-container'>
-      <div className='instruments-display-title-container'>
-        <h3 className='instruments-display-title'>Instrumentos<span className='instruments-display-highlight-text'>Destaque</span></h3>
+      <article className='instruments-display-title-container'>
+        <h3 className='instruments-display-title'>Instrument<span className='lowercase-letter'>os</span><span className='instruments-display-highlight-text'>Destaque</span></h3>
         <p className='instruments-display-main-text'>It is a long established fact that a reader will be distracted by the readable</p>
-      </div>
+      </article>
       <nav className='instruments-nav-bar-container'>
         <ul>
           <li onClick={ () => setInstrumentOption('Cordas')}>Cordas</li>
@@ -26,9 +26,9 @@ const InstrumentsDisplay = () => {
         </ul>
       </nav>
       <InstrumentsCollection InstrumentsToDisplay={ instrumentsToDisplay }/>
-      <div className='instruments-display-button-container'>
+      <article className='instruments-display-button-container'>
         <a href='#ver-mais' className='instruments-display-button'>Ver Mais</a>
-      </div>
+      </article>
     </section>
   )
 };
